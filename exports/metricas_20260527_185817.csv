@@ -1,0 +1,7 @@
+PID,Nombre,Prioridad,Burst Time,Llegada,Páginas,Accede Archivos,Tiempo Espera,Turnaround,Finalización,Respuesta,Estado
+1,Sistema,1,4,0,3,False,8,12,12,0,Terminado
+3,Editor,5,3,2,2,True,16,19,21,6,Terminado
+2,Navegador,3,6,1,5,True,20,26,27,3,Terminado
+5,Base Datos,1,5,3,6,True,22,27,30,9,Terminado
+4,Compilador,2,8,0,4,False,24,32,32,2,Terminado
+6,Antivirus,8,10,1,3,False,25,35,36,5,Terminado

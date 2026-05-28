@@ -1,0 +1,11 @@
+# ──────────────────────────────────────────────
+#  Dependencias del Simulador de SO – UPTC 2026-1
+# ──────────────────────────────────────────────
+#
+# Instalación: pip install -r requirements.txt
+#
+# Python mínimo requerido: 3.8
+# tkinter viene incluido en Python para Windows
+# ──────────────────────────────────────────────
+
+matplotlib>=3.5.0     # Gráficos (Gantt, barras de memoria)

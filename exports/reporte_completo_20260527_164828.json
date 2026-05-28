@@ -1,0 +1,149 @@
+{
+  "timestamp": "20260527_164828",
+  "algoritmo_usado": "Round Robin",
+  "quantum": 2,
+  "num_procesos": 6,
+  "metricas_scheduler": {
+    "algoritmo": "Round Robin (q=2)",
+    "num_procesos": 6,
+    "makespan": 36,
+    "espera_promedio": 19.17,
+    "turnaround_promedio": 25.17,
+    "respuesta_promedio": 4.17,
+    "throughput": 0.1667,
+    "utilizacion_cpu": 100.0,
+    "cambios_contexto": 19
+  },
+  "metricas_memoria": {
+    "algoritmo": "FIFO",
+    "num_marcos": 2,
+    "page_hits": 50,
+    "page_faults": 40,
+    "hit_ratio": 0.5556,
+    "fault_ratio": 0.4444,
+    "total_accesos": 90
+  },
+  "resumen_archivos": [
+    {
+      "Archivo": "archivo_A.txt",
+      "Total Lecturas": 0,
+      "Total Escrituras": 1,
+      "Conflictos": 0,
+      "Eventos": 1
+    },
+    {
+      "Archivo": "archivo_B.txt",
+      "Total Lecturas": 1,
+      "Total Escrituras": 1,
+      "Conflictos": 0,
+      "Eventos": 2
+    },
+    {
+      "Archivo": "archivo_C.txt",
+      "Total Lecturas": 0,
+      "Total Escrituras": 2,
+      "Conflictos": 0,
+      "Eventos": 2
+    },
+    {
+      "Archivo": "archivo_D.txt",
+      "Total Lecturas": 0,
+      "Total Escrituras": 0,
+      "Conflictos": 0,
+      "Eventos": 0
+    },
+    {
+      "Archivo": "archivo_E.txt",
+      "Total Lecturas": 2,
+      "Total Escrituras": 0,
+      "Conflictos": 0,
+      "Eventos": 2
+    }
+  ],
+  "procesos": [
+    {
+      "PID": 1,
+      "Nombre": "Sistema",
+      "Prioridad": 1,
+      "Burst Time": 4,
+      "Llegada": 0,
+      "Páginas": 3,
+      "Accede Archivos": false,
+      "Tiempo Espera": 8,
+      "Turnaround": 12,
+      "Finalización": 12,
+      "Respuesta": 0,
+      "Estado": "Terminado"
+    },
+    {
+      "PID": 3,
+      "Nombre": "Editor",
+      "Prioridad": 5,
+      "Burst Time": 3,
+      "Llegada": 2,
+      "Páginas": 2,
+      "Accede Archivos": true,
+      "Tiempo Espera": 16,
+      "Turnaround": 19,
+      "Finalización": 21,
+      "Respuesta": 6,
+      "Estado": "Terminado"
+    },
+    {
+      "PID": 2,
+      "Nombre": "Navegador",
+      "Prioridad": 3,
+      "Burst Time": 6,
+      "Llegada": 1,
+      "Páginas": 5,
+      "Accede Archivos": true,
+      "Tiempo Espera": 20,
+      "Turnaround": 26,
+      "Finalización": 27,
+      "Respuesta": 3,
+      "Estado": "Terminado"
+    },
+    {
+      "PID": 5,
+      "Nombre": "Base Datos",
+      "Prioridad": 1,
+      "Burst Time": 5,
+      "Llegada": 3,
+      "Páginas": 6,
+      "Accede Archivos": true,
+      "Tiempo Espera": 22,
+      "Turnaround": 27,
+      "Finalización": 30,
+      "Respuesta": 9,
+      "Estado": "Terminado"
+    },
+    {
+      "PID": 4,
+      "Nombre": "Compilador",
+      "Prioridad": 2,
+      "Burst Time": 8,
+      "Llegada": 0,
+      "Páginas": 4,
+      "Accede Archivos": false,
+      "Tiempo Espera": 24,
+      "Turnaround": 32,
+      "Finalización": 32,
+      "Respuesta": 2,
+      "Estado": "Terminado"
+    },
+    {
+      "PID": 6,
+      "Nombre": "Antivirus",
+      "Prioridad": 8,
+      "Burst Time": 10,
+      "Llegada": 1,
+      "Páginas": 3,
+      "Accede Archivos": false,
+      "Tiempo Espera": 25,
+      "Turnaround": 35,
+      "Finalización": 36,
+      "Respuesta": 5,
+      "Estado": "Terminado"
+    }
+  ]
+}
